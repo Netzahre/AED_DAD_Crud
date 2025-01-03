@@ -12,13 +12,16 @@ public class Aula {
     @Column(name = "idAula", nullable = false)
     private Integer id;
 
+    //3 spinners
     @Column(name = "Numeracion", nullable = false)
     private String numeracion;
 
+    //TextArea
     @Lob
     @Column(name = "Descripcion")
     private String descripcion;
 
+    //TextField
     @Column(name = "IP", nullable = false, length = 15)
     private String ip;
 

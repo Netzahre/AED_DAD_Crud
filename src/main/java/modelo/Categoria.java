@@ -13,13 +13,16 @@ public class Categoria {
     @Column(name = "idCategoria", nullable = false)
     private Integer id;
 
+    //TextField
     @Column(name = "Nombre", nullable = false)
     private String nombre;
 
+    //TextArea
     @Lob
     @Column(name = "Descripcion")
     private String descripcion;
 
+    //Radio button
     @Column(name = "Estado", nullable = false, length = 20)
     private String estado;
 

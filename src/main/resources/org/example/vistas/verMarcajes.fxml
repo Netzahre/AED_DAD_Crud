@@ -14,26 +14,26 @@
       <TableView layoutX="-1.0" layoutY="190.0" prefHeight="578.0" prefWidth="1366.0">
         <columns>
           <TableColumn prefWidth="93.0" text="Id" />
-          <TableColumn prefWidth="221.0" text="Numeracion" />
-            <TableColumn prefWidth="794.0" text="Descripcion" />
-            <TableColumn minWidth="0.0" prefWidth="257.0" text="Ip" />
+            <TableColumn prefWidth="574.0" text="Descripcion" />
+            <TableColumn minWidth="0.0" prefWidth="346.0" text="EAN" />
+            <TableColumn minWidth="0.0" prefWidth="352.0" text="KeyRFID" />
         </columns>
       </TableView>
-      <VBox alignment="TOP_CENTER" layoutX="533.0" layoutY="32.0">
+      <VBox alignment="TOP_CENTER" layoutX="517.0" layoutY="32.0">
          <children>
-            <Label prefHeight="19.0" prefWidth="274.0" text="Informacion de las aulas">
+            <Label text="Informacion de los productos">
                <font>
                   <Font name="System Bold" size="24.0" />
                </font>
             </Label>
-            <Label text="Aqui podra ver los datos de las aulas registradas" textAlignment="CENTER" wrapText="true">
+            <Label text="Aqui podra ver los datos de los productos registrados" textAlignment="CENTER" wrapText="true">
                <font>
                   <Font size="14.0" />
                </font>
             </Label>
          </children>
       </VBox>
-      <Label layoutX="48.0" layoutY="87.0" text="Id - Id del aula&#10;Numeracion - Pabellon.Piso.Aula&#10;Descripcion - Descripcion del aula&#10;Ip - Ip del aula">
+      <Label layoutX="48.0" layoutY="87.0" text="Id - Id del producto&#10;Descripcion - Descripcion del producto&#10;EAN - Codigo del producto&#10;KeyRFID - Codigo RFID del producto">
          <font>
             <Font size="14.0" />
          </font>
@@ -57,7 +57,7 @@
             </Button>
          </children>
       </VBox>
-      <Label layoutX="932.0" layoutY="78.0" prefHeight="64.0" prefWidth="274.0" text="Para modificar o borrar un aula, por favor haga click en ella y entonces en el boton modificar o borrar" textAlignment="CENTER" wrapText="true">
+      <Label layoutX="931.0" layoutY="78.0" prefHeight="64.0" prefWidth="274.0" text="Para modificar o borrar un producto, por favor haga click en el y entonces en el boton modificar o borrar" textAlignment="CENTER" wrapText="true">
          <font>
             <Font size="14.0" />
          </font>

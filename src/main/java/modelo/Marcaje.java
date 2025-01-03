@@ -6,6 +6,7 @@ import java.time.Instant;
 @Entity
 @Table(name = "marcajes")
 public class Marcaje {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "idMarcaje", nullable = false)
@@ -22,6 +23,7 @@ public class Marcaje {
     @Column(name = "Tipo", nullable = false)
     private Integer tipo;
 
+    //DatePicker
     @Column(name = "TimeStamp", nullable = false)
     private Instant timeStamp;
 

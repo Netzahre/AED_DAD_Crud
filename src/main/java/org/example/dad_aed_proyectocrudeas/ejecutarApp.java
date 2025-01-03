@@ -4,6 +4,7 @@ import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
+import controlador.controladorMenuSuperior;
 
 import java.io.IOException;
 
@@ -14,8 +15,10 @@ public class ejecutarApp extends Application {
         Scene scene = new Scene(fxmlLoader.load());
         stage.setTitle("Inicio");
         stage.setScene(scene);
+        //poner mi hoja css
+        scene.getStylesheets().add(getClass().getResource("/org/example/css/diurno.css").toExternalForm());
+        controladorMenuSuperior.setStage(stage);
         stage.show();
-
     }
 
     public static void main(String[] args) {
